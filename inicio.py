@@ -6,7 +6,7 @@ from Ficher_datos import Importaciondatos
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import *
 import webbrowser
-
+#Inicio
 class Consultas_graficos(QDialog):
     def __init__(self):
         super().__init__()
