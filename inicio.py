@@ -10,7 +10,7 @@ import webbrowser
 class Consultas_graficos(QDialog):
     def __init__(self):
         super().__init__()
-######## 1 / 2 ################################################################################################################################
+######## 1 / 2 ####################################################################################################################################
         #nombre_archivo=self.resolver_ruta("formulario_hipoteca_acceso.ui")
         #uic.loadUi(nombre_archivo, self)
         uic.loadUi("C:/Users/Paul/Desktop/PROYECTOS INFORMATICOS/CALCULADORA HIPOTECARIA PYTHON/formulario_hipoteca_acceso.ui", self)
