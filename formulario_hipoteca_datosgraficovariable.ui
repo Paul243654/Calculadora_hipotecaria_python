@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_detalleygraficovariable</class>
+ <widget class="QDialog" name="Dialog_detalleygraficovariable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1190</width>
+    <height>862</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Datos tipo variable</string>
+  </property>
+  <widget class="QFrame" name="frame_detallecuota">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1171</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QTableWidget" name="tableWidget_detVariable">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>11</y>
+      <width>1141</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>nº rev</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Año</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mes</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>nº Cuota</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cuota</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Interes</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Amortización</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Capital pendiente</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Indice(%)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cuota 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Interes 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Amortización 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Capital pendiente 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Indice 2 (%)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>A amortizar</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Pago</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Interes legal</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mes Revisión</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_agruprevision">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>481</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>461</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Interes 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Interes 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Amortización 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Amortización 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dif intereses</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dif amortización</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_totaleship">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>350</y>
+     <width>681</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QTableWidget" name="tableWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>11</y>
+      <width>651</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Interes  1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Interes  2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Amortización 1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Amortización 2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Indice 1 (%)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Indice 2 (%)</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_grafevolind">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>480</y>
+     <width>431</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>29</y>
+      <width>391</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_grafevolind"/>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Evolución de los indices hipotecarios</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>320</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nº de revisión</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>n</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>d</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>i</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>c</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>e</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>(%)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_grafagruprev">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>530</y>
+     <width>441</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>29</y>
+      <width>411</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_grafagruprev"/>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>260</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nº de revisión</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>(€)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diferencia de intereses anual</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_graftotales">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>530</y>
+     <width>291</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>271</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_totales"/>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>COSTE TOTAL HIPOTECA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_exportarexcel">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>830</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exportar Excel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_salirdatosgraf">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>830</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
