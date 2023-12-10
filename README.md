@@ -16,6 +16,9 @@ Si el índice hipotecario que se ha contratado, esta en proceso de juicio, debid
 
 ## Descripción
 
+Tanto si contratas un prestamo a tipo fijo o tipo variable, con esta calculadora, puedes saber la cantidad real amortizada, así como los intereses que se han pagado cada mes, el cálculo comprende desde la primera cuota hasta el mes actual en curso. Si el índice hipotecario que se ha contratado, esta en proceso de juicio, debido a que la claúsula que lo contiene es abusivo, se puede generar información de las cuotas pagadas, así como tambien los intereses legales.
+
+
 ## Estado
 
 ![en_construccion](https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/6e8bdcca-bb04-40f2-a7d8-b7484a862e91)
