@@ -2,10 +2,10 @@
 
 # Introducción
 
-<img align="left" width="400" height="400" src="https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/fcb54cd4-24f1-41a9-8010-398c18acddb7"> 
+<img align="left" width="440" height="400" src="https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/fcb54cd4-24f1-41a9-8010-398c18acddb7"> 
  
 <p align="center">
-  <img width="460" height="400" src="https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/be634b07-033c-49f7-89d4-9f34631572f3">   
+  <img width="440" height="400" src="https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/be634b07-033c-49f7-89d4-9f34631572f3">   
 </p>
 
 <img align="right" width="100" height="100" src="                     ">
