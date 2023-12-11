@@ -12,11 +12,12 @@ Al momento de comprar una vivienda, se firma un contrato hipotecario, en el cual
 
 
 En la primera imagen tenemos el formulario de entrada de datos, que corresponden a fechas, indices, diferenciales y periodos pactados con el banco.
-En la segunda imagen tenemos un formulario de entrada de indices hipotecarios, los cuales se publican cada mez, así como tambien podemos ingresar el interes legal del dinero que se publica anualmente.
+En la segunda imagen tenemos un formulario de entrada de indices hipotecarios, los cuales se publican cada mez, así como tambien podemos ingresar el interes legal del dinero que se publica anualmente, datos que se graban en una base de datos portable, la cual es indispensable para realizar los cálculos.
 
 
 ## Descripción
 
+Aplicación creada utilizanbdo lenguaje de programación Python.
 Tanto si contratas un prestamo a tipo fijo o tipo variable, con esta calculadora, puedes saber la cantidad real amortizada, así como los intereses que se han pagado cada mes, el cálculo comprende desde la primera cuota hasta el mes actual en curso. Si el índice hipotecario que se ha contratado, esta en proceso de juicio, debido a que la claúsula que lo contiene es abusiva, se puede generar información detallada de las cuotas pagadas, así como tambien los intereses legales correspondientes.
 
 
