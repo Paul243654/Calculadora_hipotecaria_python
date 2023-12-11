@@ -24,6 +24,10 @@ Tanto si contratas un prestamo a tipo fijo o tipo variable, con esta calculadora
 
 ## Funcionalidades
 
+- Se puede generar listado de lo amortizado y los intereses pagados tanto por cuota como totales.
+- Se pueden generar la cantidad de los intereses legales.
+- Los informes detallados se pueden exportar a un fichero Excel.
+  
 ![cal_pyton](https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/bf16df40-a0bb-4841-8457-563b71174f36)
 
 
