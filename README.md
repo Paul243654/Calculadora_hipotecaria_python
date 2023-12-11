@@ -22,7 +22,7 @@ Tanto si contratas un prestamo a tipo fijo o tipo variable, con esta calculadora
 
 ## Estado
 
-![en_construccion](https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/6e8bdcca-bb04-40f2-a7d8-b7484a862e91)
+![ready](https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/09e76b74-4ef3-4e34-ba61-43b729d2405f)
 
 
 ## Funcionalidades
