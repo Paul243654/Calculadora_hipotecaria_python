@@ -1,4 +1,4 @@
-# <h1 align="center"> Calculadora de intereses de un prestamo hipotecario </h1>
+# <h1 align="center"> Calculadora de intereses de un prestamo hipotecario (Python) </h1>
 
 ## Introducción
 
