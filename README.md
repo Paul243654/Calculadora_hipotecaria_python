@@ -10,6 +10,7 @@ Al momento de comprar una vivienda, se firma un contrato hipotecario, en el cual
   <img width="400" height="400" src="https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/be634b07-033c-49f7-89d4-9f34631572f3">   
 </p>
 
+
 En la primera imagen tenemos el formulario de entrada de datos, que corresponden a fechas, indices, diferenciales y periodos pactados con el banco.
 En la segunda imagen tenemos un formulario de entrada de indices hipotecarios, los cuales se publican cada mez, así como tambien podemos ingresar el interes legal del dinero que se publica anualmente.
 
