@@ -35,7 +35,7 @@ Tanto si contratas un prestamo a tipo fijo o tipo variable, con esta calculadora
 ![cal_pyton](https://github.com/Paul243654/Calculadora_hipotecaria_python/assets/112754073/bf16df40-a0bb-4841-8457-563b71174f36)
 
 
-En la imagen podemos ver los totales pagados, tambien la comparación de la evolución del indice de ínteres aplicado vs un indice supletorio.
+En la imagen podemos ver los totales pagados, la comparación de la evolución del indice de ínteres aplicado vs un indice supletorio y el detalle de cada cuota mensual pagada.
 
 
 ## Autores
